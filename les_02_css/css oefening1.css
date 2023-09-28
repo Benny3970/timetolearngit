@@ -9,7 +9,22 @@ h1 {
 }
 
 h2 {
-    border-left: 6px solid darkblue; /* Linkse border van 6 pixels in donkerblauw */
-    background-color: lightblue; /* Achtergrondkleur lichtblauw */
-    padding-left: 10px; /* Linkse padding van 10 pixels */
+    border-left: 6px solid darkblue; 
+    background-color: lightblue; 
+    padding-left: 10px; 
+}
+p {
+    color: grey; 
+    margin-bottom: 25px; 
+}
+
+#extra {
+    font-weight: 700; 
+    color: black; 
+    white-space: nowrap; 
+}
+
+#lijntje {
+    text-decoration: underline; 
+    font-weight: 700; 
 }
