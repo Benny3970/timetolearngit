@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+}
+.naamVanKlasse {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: solid #000000; 
+    border-radius: 10px; 
+
+}
+#IdSelector1 {
+    background-color: #e6a2a2;
+    color:  #600;
+
+}
+#IdSelector2 {
+    background-color: #a2c4e6;
+    color:#004080;
+
+}
+#IdSelector3 {
+    background-color: #a2e6c4;
+    color:#00663d;
+
+}
