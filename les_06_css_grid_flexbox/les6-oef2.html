@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>les6-oef2</title>
+    <style>
+    .grid-container > * {
+        background: black;
+        color: white;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        border-radius: 7px;
+        font-weight: 700;
+    }
+
+    .grid-container {
+        box-sizing: border-box;
+        border: 20px solid #fff;
+        font-size: 2em;
+        font-family: sans-serif;
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        grid-template-areas: "header header" "aside main" "footer footer";
+        grid-template-rows: 150px auto 75px;
+        grid-template-columns: 200px auto;
+        margin: 0 auto;
+        grid-gap: 10px;
+    }
+
+    .header {
+        grid-area: header;
+        background-color: #2037ac;
+    }
+
+    .aside {
+        grid-area: aside;
+        background-color: #33a241;
+    }
+
+    .main {
+        grid-area: main;
+        background-color: #02010a;
+    }
+
+    .footer {
+        grid-area: footer;
+        background-color: #b55218;
+    }
+    </style>
+</head>
+
+<body>
+<div class="grid-container">
+    <header class="header">header</header>
+    <aside class="aside">aside</aside>
+    <main class="main">main</main>
+    <footer class="footer">footer</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    color: #f04819; 
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.graduaat {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+table {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+caption {
+    caption-side: bottom;
+    font-size: 14px;
+    padding: 5px;
+}
+
+#tm-logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+.nadruk {
+    font-weight: bold;
+}
+
+th, td {
+    text-align: center;
+    border: 1px solid lightgray;
+    height: 50px;
+    padding: 0 15px;
+}
+
+.startdag {
+    font-family: 'Pacifico', cursive;
+    font-family: 'VT323', monospace;
+    font-size: 32px;
+    background-color: #f04819;
+    color: white;
+}

@@ -1,0 +1,50 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+form {
+    width: 20%;
+}
+
+
+input {
+    width: 100%;
+}
+
+select{
+    width: auto;
+}
+
+input[type=text]:focus {
+    background-color: lightyellow;
+}
+
+fieldset {
+    box-shadow: 2px 2px lightgray;
+    width: auto;
+    height: auto;
+}
+
+fieldset label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+fieldset input[type="radio"] {
+    display: inline-block;
+}
+
+fieldset legend {
+    padding: 5px; 
+    margin-top: -25px;
+    text-align: left
+}
+
+select#provincie {
+    width: 100%;
+    background-color: lightgrey;
+    height: 20px
+}
+

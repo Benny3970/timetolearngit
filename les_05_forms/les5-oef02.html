@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>les5 oef2</title>
+    <link rel="stylesheet" href="les5-oef2.css">
+</head>
+<body>
+    <form method="post" action="https://tm-statweb.be/forms.php">
+        <div>
+            <label for="Voornaam">Voornaam:</label>
+            <input type="text" id="Voornaam" name="Voornaam" placeholder="Stijn" >
+        </div>
+        <div>
+            <label for="Familienaam">Familienaam:</label>
+            <input type="text" id="Familienaam" name="Familienaam" placeholder="Lenearts">
+        </div>
+        <div>
+            <label for="Gebruikersnaam">Gebruikersnaam:</label>
+            <input type="text" id="Gebruikersnaam" name="Gebruikersnaam" placeholder="mail@thomasmore.be">
+        </div>
+        <div>
+            <label for="Nickname">Nickname:</label>
+            <input type="text" id="Nickname" name="Nickname" required min="5" max="15">
+        </div>
+        <div>
+            <label for="paswoord">paswoord:</label>
+            <input type="password" name="paswoord" id="paswoord" required>
+        </div>
+        <div>
+            <label for="Herhaal paswoord">Herhaal paswoord:</label>
+            <input type="password" name="Herhaal paswoord" id="Herhaal paswoord" required>
+        </div>
+        <div>
+            <label for="Registreren"></label>
+            <input type="submit" value="Registreren" id="Registreren" name="Registreren">
+        </div>
+    </div>
+    <input type="hidden" name="studentemail" value="r0969840@student.thomasmore.be">
+    <div>
+    </form>
+</body>
+</html>

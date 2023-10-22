@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+fieldset {
+    background-color: #c49c7c;
+    margin-bottom: 10px;
+    width: auto;
+}
+
+fieldset label {
+    display: inline;
+    font-size: 12px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+legend {
+    background-color: maroon;
+    color: white;
+    padding: 5px;
+}
+
+form {
+    width: 25%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+}
+
+fieldset input[type="radio"] {
+    display: inline;
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #c49c7c;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+
+

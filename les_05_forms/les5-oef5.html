@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="les5.oef5.css">
+</head>
+<body>
+    <form action="https://tm-statweb.be/forms.php" method="GET">
+
+            <label for="voornaam">Voornaam:</label>
+            <input type="text" id="voornaam" name="voornaam" required><br>
+
+            <label for="familienaam">Familienaam:</label>
+            <input type="text" id="familienaam" name="familienaam" required><br>
+
+            <label for="adres">Adres:</label>
+            <input type="text" id="adres" name="adres" required><br>
+
+            <label for="provincie">Provincie:</label>
+            <select id="provincie" name="provincie" required>
+                <option value="Limburg" selected>Limburg</option>
+                <option value="Antwerpen">Antwerpen</option>
+                <option value="Oost-Vlaanderen">Oost-Vlaanderen</option>
+                <option value="West-Vlaanderen">West-Vlaanderen</option>
+                <option value="Vlaams-Brabant">Vlaams-Brabant</option>
+                <option value="Waals-Brabant">Waals-Brabant</option>
+                <option value="Henegouwen">Henegouwen</option>
+                <option value="Luik">Luik</option>
+                <option value="Luxemburg">Luxemburg</option>
+                <option value="Namen">Namen</option>
+            </select><br>
+     <fieldset>
+            <legend>Geslacht:</legend>
+            <label for="geslacht"></label>
+            <input type="radio" id="man" name="geslacht" value="man" required>
+            <label for="man">Man</label>
+            <input type="radio" id="vrouw" name="geslacht" value="vrouw" required>
+            <label for="vrouw">Vrouw</label>
+            <input type="radio" id="ander" name="geslacht" value="ander" required>
+            <label for="ander">Ander</label><br>
+    </fieldset>
+            <label for="foto">Foto:</label>
+            <input type="file" id="foto" name="foto" required><br>
+
+            <input type="checkbox" id="voorwaarden" name="voorwaarden" value="akkoord" required>
+            <label for="voorwaarden">Ik ga akkoord met de algemene voorwaarden</label><br>
+
+            <input type="submit" value="Registreren">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,41 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border: 3px solid #000; 
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #000; 
+    height: 50px;
+    text-align: center;
+    margin: 4px;
+}
+th {
+    background-color: lightgray; 
+}
+
+caption {
+
+    padding: 8px;
+}
+
+.breedte-200 {
+    width: 200px;
+}
+
+.breedte-100 {
+    width: 100px;
+}
+
+.achtergrond-rood {
+    background-color: red;
+}
+
+.achtergrond-groen {
+    background-color: green;
+}
